@@ -100,7 +100,8 @@ h6 {
   position: relative;
 }
 
-.active {
+.active,
+.nav__elem:hover {
   color: #f06c64;
 }
 
@@ -154,6 +155,7 @@ h6 {
 .slide {
   position: relative;
   height: inherit;
+  width: 1020px;
 }
 
 .phone__img {
@@ -186,11 +188,14 @@ h6 {
 .button-arrow {
   position: absolute;
   top: 54%;
-
 }
 
 .arrow {
   fill: #ca4549;
+}
+
+.button-arrow:hover .arrow:hover {
+  fill: black;
 }
 
 .arrow__right {
